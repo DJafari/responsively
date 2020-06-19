@@ -1,6 +1,5 @@
-
 # responsively  
-  
+
 Full support responsive widgets to flutter  
   
 ## Getting Started  
@@ -16,6 +15,7 @@ import 'package:responsively/responsively.dart';
 
 ## ResponsiveRow
 
+![](https://raw.githubusercontent.com/DJafari/responsively/master/readme_images/intro.gif)
 
 Responsive grid look like bootstrap grid, support `width`, `offset` and `order` for diffrent BreakPoints
 
