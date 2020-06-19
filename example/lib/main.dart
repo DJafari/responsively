@@ -41,63 +41,6 @@ class _MyHomePageState extends State<MyHomePage> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            ResponsiveSizedBox(
-              width: ResponsiveWidth(
-                lgUp: 50.0,
-                mdUp: 40.0,
-                defaultValue: 30.0
-              ),
-              child: Container(
-                height: 100,
-                color: Colors.red,
-              ),
-            ),
-            ResponsiveRow(
-              children: [
-                ResponsiveColumn(
-                  width: ColumnWidth(
-                    lgUp: 3, // fill 3 from 12 column in large screen and bigger
-                    mdUp: 4, // fill 4 from 12 column in medium screen and bigger
-                    smUp: 6, // fill 6 from 12 column in small screen and bigger
-                    defaultValue: 12, // if device size not exist in your definition defaultValue is your column width
-                  ),
-                  order: ColumnOrder(
-                    lgUp: 0,
-                    mdUp: 1,
-                    smUp: 0,
-                    xsUp: 1,
-                  ),
-                  offset: ColumnOffset(
-                    lgUp: 2,
-                  ),
-                  child: Container(
-                    height: 100,
-                    color: Colors.purple,
-                  )
-                ),
-                ResponsiveColumn(
-                  width: ColumnWidth(
-                    lgUp: 3, // fill 3 from 12 column in large screen and bigger
-                    mdUp: 4, // fill 4 from 12 column in medium screen and bigger
-                    smUp: 6, // fill 6 from 12 column in small screen and bigger
-                  ),
-                  order: ColumnOrder(
-                    lgUp: 1,
-                    mdUp: 0,
-                    smUp: 1,
-                    xsUp: 0,
-                  ),
-                  offset: ColumnOffset(
-                    mdUp: 1,
-                  ),
-                  child: Container(
-                    height: 100,
-                    color: Colors.deepOrange,
-                  )
-                ),
-              ],
-            ),
-            /*
             ResponsiveRow(
               mainAxisSpacing: 8,
               crossAxisSpacing: 8,
@@ -189,7 +132,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ],
             ),
-             */
           ],
         ),
       ),
