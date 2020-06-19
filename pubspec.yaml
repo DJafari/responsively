@@ -1,7 +1,7 @@
 name: responsively
-description: Responsively flutter widgets and utils
-version: 1.0.0
-homepage: http://Davoood.ir
+description: Bring responsive widgets to flutter! this package has some widgets to make a simple responsive ui
+version: 1.0.2
+homepage: https://github.com/DJafari/responsively
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

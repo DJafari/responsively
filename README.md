@@ -1,6 +1,6 @@
 # responsively  
 
-Full support responsive widgets to flutter  
+Bring responsive widgets to flutter! this package has some widgets to make a simple responsive ui
   
 ## Getting Started  
 
